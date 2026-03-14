@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>Email Template</title>
+    <style>
+        /* Reset styles */
+        body, table, td, p, a, li, blockquote {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        table, td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+        
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            .mobile-hide { display: none !important; }
+            .mobile-center { text-align: center !important; }
+            .mobile-padding { padding: 15px !important; }
+            .mobile-font { font-size: 24px !important; }
+            .mobile-button { width: 100% !important; max-width: 300px !important; }
+            .mobile-stack { display: block !important; width: 100% !important; }
+        }
+        
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            .dark-bg { background-color: #1a1a1a !important; }
+            .dark-text { color: #ffffff !important; }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f5f5f5; font-family: Arial, Helvetica, sans-serif; -webkit-font-smoothing: antialiased;">
+    
+    <!-- Preview Text (hidden) -->
+    <div style="display: none; max-height: 0; overflow: hidden; mso-hide: all;">
+        PREVIEW_TEXT_HERE
+    </div>
+    
+    <!-- Main Container -->
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f5f5f5;">
+        <tr>
+            <td align="center" style="padding: 20px 0;">
+                
+                <!-- Email Content Wrapper -->
+                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" style="max-width: 600px; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" class="mobile-padding">
+                    
+                    <!-- Header / Logo -->
+                    <tr>
+                        <td style="padding: 30px 40px; background-color: #ffffff; text-align: center; border-bottom: 1px solid #eeeeee;">
+                            <a href="[WEBSITE_URL]" target="_blank" style="text-decoration: none;">
+                                <h1 style="margin: 0; font-size: 32px; color: #2c5f2d; font-weight: bold; letter-spacing: 2px;">BRAND</h1>
+                                <p style="margin: 5px 0 0 0; font-size: 12px; color: #666666; letter-spacing: 3px; text-transform: uppercase;">Tagline</p>
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <!-- Promo Banner (optional) -->
+                    <tr>
+                        <td style="background: linear-gradient(135deg, #d4af37 0%, #c9a227 100%); padding: 12px; text-align: center;">
+                            <p style="margin: 0; font-size: 14px; color: #ffffff; font-weight: bold; letter-spacing: 1px;">PROMO_BANNER_TEXT</p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Hero Image -->
+                    <tr>
+                        <td style="background-color: #f8f8f8;">
+                            <a href="[HERO_LINK]" target="_blank">
+                                <img src="[HERO_IMAGE_URL]" 
+                                     alt="[HERO_ALT_TEXT]" 
+                                     width="600" 
+                                     height="350" 
+                                     style="display: block; width: 100%; max-width: 600px; height: auto;"
+                                     class="mobile-stack">
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <!-- Hero Text -->
+                    <tr>
+                        <td style="padding: 40px 40px 20px 40px; background-color: #ffffff; text-align: center;" class="mobile-padding">
+                            <h2 style="margin: 0 0 15px 0; font-size: 36px; color: #2c5f2d; font-weight: bold; line-height: 1.2;" class="mobile-font">
+                                HERO_HEADLINE
+                            </h2>
+                            <p style="margin: 0; font-size: 18px; color: #666666; line-height: 1.6;">
+                                HERO_SUBHEADLINE
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Intro Text -->
+                    <tr>
+                        <td style="padding: 0 40px 30px 40px; background-color: #ffffff;" class="mobile-padding">
+                            <p style="margin: 0 0 20px 0; font-size: 16px; color: #333333; line-height: 1.8;">
+                                Hi [First Name],
+                            </p>
+                            <p style="margin: 0 0 20px 0; font-size: 16px; color: #333333; line-height: 1.8;">
+                                OPENING_PARAGRAPH
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- CTA Button 1 -->
+                    <tr>
+                        <td style="padding: 0 40px 40px 40px; background-color: #ffffff; text-align: center;" class="mobile-padding">
+                            <a href="[CTA1_LINK]" 
+                               target="_blank" 
+                               style="display: inline-block; padding: 18px 40px; background: linear-gradient(135deg, #2c5f2d 0%, #1e4220 100%); color: #ffffff; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 6px; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 12px rgba(44,95,45,0.3);"
+                               class="mobile-button">
+                                CTA1_TEXT →
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <!-- Product Grid Section -->
+                    <tr>
+                        <td style="padding: 40px 40px 20px 40px; background-color: #ffffff;" class="mobile-padding">
+                            <h3 style="margin: 0 0 30px 0; font-size: 24px; color: #2c5f2d; font-weight: bold; text-align: center;">PRODUCT_SECTION_TITLE</h3>
+                            
+                            <!-- Product 1 -->
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 20px; border: 1px solid #eeeeee; border-radius: 8px; overflow: hidden;">
+                                <tr>
+                                    <td style="padding: 20px;">
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td style="font-size: 16px; color: #333333; font-weight: bold; padding-bottom: 8px;">PRODUCT1_NAME</td>
+                                                <td rowspan="2" style="text-align: right; vertical-align: middle;">
+                                                    <a href="[PRODUCT1_LINK]" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #d4af37; color: #ffffff; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 4px;">Shop Now</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 14px; color: #666666; padding-bottom: 8px;">PRODUCT1_DESCRIPTION</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" style="font-size: 18px; color: #2c5f2d; font-weight: bold;">
+                                                    <span style="text-decoration: line-through; color: #999999; font-size: 14px; margin-right: 10px;">PRODUCT1_ORIGINAL_PRICE</span>
+                                                    PRODUCT1_DISCOUNT_PRICE
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Benefits Section -->
+                    <tr>
+                        <td style="padding: 30px 40px; background-color: #f8f8f8; border-top: 1px solid #eeeeee;" class="mobile-padding">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td width="33%" style="text-align: center; padding: 10px;" class="mobile-stack">
+                                        <p style="margin: 0 0 10px 0; font-size: 24px;">🚚</p>
+                                        <p style="margin: 0; font-size: 14px; color: #333333; font-weight: bold;">Free Delivery</p>
+                                        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666666;">On orders over AED 5,000</p>
+                                    </td>
+                                    <td width="33%" style="text-align: center; padding: 10px;" class="mobile-stack">
+                                        <p style="margin: 0 0 10px 0; font-size: 24px;">⚡</p>
+                                        <p style="margin: 0; font-size: 14px; color: #333333; font-weight: bold;">48-Hour Setup</p>
+                                        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666666;">Fast installation</p>
+                                    </td>
+                                    <td width="33%" style="text-align: center; padding: 10px;" class="mobile-stack">
+                                        <p style="margin: 0 0 10px 0; font-size: 24px;">🛡️</p>
+                                        <p style="margin: 0; font-size: 14px; color: #333333; font-weight: bold;">3-Year Warranty</p>
+                                        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666666;">Buy with confidence</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Final CTA -->
+                    <tr>
+                        <td style="padding: 40px; background-color: #ffffff; text-align: center;" class="mobile-padding">
+                            <h3 style="margin: 0 0 20px 0; font-size: 24px; color: #2c5f2d; font-weight: bold;">FINAL_CTA_HEADLINE</h3>
+                            <p style="margin: 0 0 30px 0; font-size: 16px; color: #666666; line-height: 1.8;">
+                                FINAL_CTA_TEXT
+                            </p>
+                            <a href="[FINAL_CTA_LINK]" 
+                               target="_blank" 
+                               style="display: inline-block; padding: 20px 50px; background: linear-gradient(135deg, #d4af37 0%, #c9a227 100%); color: #ffffff; text-decoration: none; font-size: 18px; font-weight: bold; border-radius: 6px; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 12px rgba(212,175,55,0.3);"
+                               class="mobile-button">
+                                FINAL_CTA_BUTTON →
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <!-- Footer -->
+                    <tr>
+                        <td style="padding: 40px; background-color: #2c5f2d; text-align: center;" class="mobile-padding">
+                            <p style="margin: 0 0 20px 0; font-size: 18px; color: #ffffff; font-weight: bold;">With love,</p>
+                            <p style="margin: 0 0 30px 0; font-size: 24px; color: #d4af37; font-weight: bold; letter-spacing: 2px;">The BRAND Family</p>
+                            
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+                                <tr>
+                                    <td style="padding: 0 15px;">
+                                        <a href="mailto:[EMAIL]" style="color: #ffffff; text-decoration: none; font-size: 14px;">📧 [EMAIL]</a>
+                                    </td>
+                                    <td style="padding: 0 15px; border-left: 1px solid rgba(255,255,255,0.3);">
+                                        <a href="tel:[PHONE]" style="color: #ffffff; text-decoration: none; font-size: 14px;">📞 [PHONE]</a>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <p style="margin: 30px 0 0 0; font-size: 14px; color: rgba(255,255,255,0.7);">
+                                <a href="[WEBSITE_URL]" target="_blank" style="color: #d4af37; text-decoration: none;">[WEBSITE]</a>
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Legal Footer -->
+                    <tr>
+                        <td style="padding: 20px 40px; background-color: #1e4220; text-align: center;" class="mobile-padding">
+                            <p style="margin: 0 0 10px 0; font-size: 12px; color: rgba(255,255,255,0.6);">
+                                You're receiving this email because you subscribed to [BRAND] updates.
+                            </p>
+                            <p style="margin: 0 0 10px 0; font-size: 12px; color: rgba(255,255,255,0.6);">
+                                <a href="[UNSUBSCRIBE_LINK]" style="color: #d4af37; text-decoration: underline;">Unsubscribe</a> | 
+                                <a href="[PREFERENCES_LINK]" style="color: #d4af37; text-decoration: underline;">Update Preferences</a> | 
+                                <a href="[VIEW_IN_BROWSER_LINK]" style="color: #d4af37; text-decoration: underline;">View in Browser</a>
+                            </p>
+                            <p style="margin: 0; font-size: 11px; color: rgba(255,255,255,0.4);">
+                                © 2026 [BRAND]. All rights reserved.<br>
+                                [ADDRESS]
+                            </p>
+                        </td>
+                    </tr>
+                    
+                </table>
+                
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

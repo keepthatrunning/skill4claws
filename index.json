@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-03-13T23:20:00Z",
+  "maintainer": "egg小姐",
+  "repository": "openclaw-skills",
+  "skills": [
+    {
+      "id": "skill-creator-enhanced",
+      "name": "Skill Creator Enhanced",
+      "description": "增强版 Skill 创建工具 - 结合 Anthropic 评估框架与 OpenClaw 打包规范。提供完整的 Skill 生命周期管理：创建、评估、优化、打包、验证",
+      "version": "1.0.0",
+      "path": "skills/skill-creator-enhanced/SKILL.md",
+      "tags": ["skill", "creator", "eval", "benchmark", "package", "anthropic", "openclaw"],
+      "author": "egg小姐 (合并 Anthropic + OpenClaw)",
+      "date": "2026-03-13",
+      "signals": ["create_skill", "eval_skill", "benchmark_skill", "package_skill", "improve_skill"]
+    },
+    {
+      "id": "evomap-capsule-sop",
+      "name": "EvoMap Capsule 发布 SOP",
+      "description": "EvoMap Capsule 发布的标准操作流程，包含完整 checklis 和常见错误修复指南",
+      "version": "1.0.0",
+      "path": "skills/evomap-capsule-sop/SKILL.md",
+      "tags": ["evomap", "capsule", "publish", "sop", "workflow"],
+      "author": "egg小姐",
+      "date": "2026-03-11",
+      "signals": ["evomap_publish", "capsule_bundle", "asset_verification"]
+    },
+    {
+      "id": "modelscope-image-gen",
+      "name": "ModelScope 图像生成",
+      "description": "使用魔塔社区(ModelScope) API 生成AI图片，基于通义万相(Z-Image-Turbo)模型",
+      "version": "1.0.0",
+      "path": "skills/modelscope-image-gen/SKILL.md",
+      "tags": ["image", "generation", "ai", "modelscope", "魔塔"],
+      "author": "egg小姐",
+      "date": "2026-03-11",
+      "signals": ["image_generation", "modelscope", "text_to_image"]
+    },
+    {
+      "id": "feishu-file-uploader",
+      "name": "飞书文件上传",
+      "description": "上传本地文件到飞书云空间(Feishu Drive)并获取分享链接",
+      "version": "1.0.0",
+      "path": "skills/feishu-file-uploader/SKILL.md",
+      "tags": ["feishu", "upload", "file", "cloud", "飞书"],
+      "author": "egg小姐",
+      "date": "2026-03-11",
+      "signals": ["feishu_upload", "file_upload", "cloud_storage"]
+    },
+    {
+      "id": "memory-system-c3",
+      "name": "方案C-v3 智能记忆系统",
+      "description": "五层智能记忆架构，包含智能去重、自动精炼、标签推断的完整 AI 记忆管理方案",
+      "version": "1.0.0",
+      "path": "skills/memory-system-c3/SKILL.md",
+      "tags": ["memory", "management", "tiered", "smart-dedup", "auto-compaction", "workflow"],
+      "author": "egg小姐",
+      "date": "2026-03-11",
+      "signals": ["memory_system", "ai_continuity", "context_management", "smart_memory"]
+    },
+    {
+      "id": "seo-keyword-db",
+      "name": "SEO关键词库",
+      "description": "SEO关键词库管理工具 - 用于创建、管理、分析和优化SEO关键词数据库。支持关键词分组、搜索量追踪、竞争度分析、关键词挖掘和报告生成",
+      "version": "1.0.0",
+      "path": "skills/seo-keyword-db/SKILL.md",
+      "tags": ["seo", "keyword", "database", "analysis", "marketing", "report"],
+      "author": "egg小姐",
+      "date": "2026-03-13",
+      "signals": ["seo", "keyword_research", "keyword_management", "seo_analysis", "keyword_database"]
+    },
+    {
+      "id": "github-maintainer-best-practices",
+      "name": "GitHub仓库维护最佳实践",
+      "description": "开源项目规范化管理指南，确保代码与文档始终同步。涵盖版本管理、CHANGELOG维护、提交规范、团队强制执行等完整工作流程",
+      "version": "1.0.0",
+      "path": "skills/github-maintainer-best-practices/SKILL.md",
+      "tags": ["github", "maintenance", "best-practices", "documentation", "workflow", "release"],
+      "author": "egg小姐",
+      "date": "2026-03-13",
+      "signals": ["github", "repository_maintenance", "version_management", "documentation_sync", "release_management", "open_source"]
+    },
+    {
+      "id": "edm-campaign-creator",
+      "name": "EDM Campaign Creator",
+      "description": "Comprehensive EDM campaign creation system for B2B and B2C businesses with 8-phase workflow, content templates, and HTML boilerplates",
+      "version": "2.0.0",
+      "path": "skills/edm-campaign-creator/SKILL.md",
+      "tags": ["edm", "email", "marketing", "campaign", "b2b", "b2c", "workflow"],
+      "author": "Blue",
+      "date": "2026-03-13",
+      "signals": ["edm_campaign", "email_marketing", "campaign_creation", "b2b_marketing", "b2c_marketing"]
+    }
+  ],
+  "stats": {
+    "totalSkills": 8,
+    "categories": {
+      "workflow": 3,
+      "image": 1,
+      "feishu": 1,
+      "memory": 1,
+      "seo": 1,
+      "github": 1,
+      "marketing": 1,
+      "dev-tool": 1
+    }
+  }
+}
