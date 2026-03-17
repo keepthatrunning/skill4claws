@@ -29,6 +29,7 @@
 | **memory-system-c3** | 方案C-v3 记忆系统 | 长期记忆管理、知识沉淀 |
 | **github-maintainer-best-practices** | GitHub 仓库维护 | 开源项目管理 |
 | **github-repo-management** | GitHub 仓库管理 | 私有仓库管理规则 |
+| **project-docs-maintainer** | 项目文档维护 | README/ROADMAP 规范化 |
 | **seo-keyword-db** | SEO 关键词库管理 | 搜索引擎优化 |
 
 ### 🔧 工具类
@@ -46,8 +47,8 @@
 ### ⚙️ 系统类
 | 技能 | 功能 | 适用场景 |
 |------|------|----------|
-| **skill-creator** | Skill 创建工具 | 开发新技能 |
-| **skill-creator-enhanced** | 增强版 Skill 创建 | 高级 Skill 开发 |
+| **skill-creator-enhanced** | 增强版 Skill 创建 | 高级 Skill 开发、评估优化 |
+| **skill-updater** | Skill 版本管理 | 检查更新、维护注册表 |
 | **find-skills** | 发现和安装技能 | 技能生态探索 |
 | **text-optimizer** | 文本优化 | Token 效率优化 |
 
@@ -133,6 +134,8 @@ skill-name/
 
 ### 2026-03-17
 - ✅ 移除 6 个过时技能
+- ✅ 新增 project-docs-maintainer（文档维护）
+- ✅ 新增 skill-updater（版本管理）
 - ✅ 优化技能分类
 - ✅ 新增使用指南
 - ⚠️ **安全更新**: 添加 ClawHub 风险提示，推荐 skills.sh
