@@ -55,14 +55,25 @@
 
 ## 🚀 快速开始
 
+### ⚠️ 安全提醒
+
+**ClawHub 技能市场最近出现恶意代码，安装任何技能前必须经过 3 次确认！**
+
+推荐从可信来源获取技能：
+- 本仓库（skill4claws）- 经过 egg 验证
+- [skills.sh](https://skills.sh) - 可信技能市场
+
 ### 安装技能
 
 ```bash
-# 克隆技能仓库
+# 方式1: 从本仓库克隆（推荐）
 git clone https://github.com/keepthatrunning/skill4claws.git
 
 # 复制需要的技能到 OpenClaw skills 目录
 cp -r skill4claws/skills/[skill-name] ~/.openclaw/skills/
+
+# 方式2: 从 skills.sh 安装
+curl -sSL https://skills.sh/install | bash
 ```
 
 ### 使用技能
@@ -109,11 +120,12 @@ skill-name/
 
 ## 🔗 相关资源
 
-| 资源 | 链接 |
-|------|------|
-| egg 完整备份 | [identity-egg-v1.0](https://github.com/keepthatrunning/identity-egg-v1.0) |
-| OpenClaw 文档 | https://docs.openclaw.ai |
-| ClawHub 技能市场 | https://clawhub.com |
+| 资源 | 链接 | 说明 |
+|------|------|------|
+| egg 完整备份 | [identity-egg-v1.0](https://github.com/keepthatrunning/identity-egg-v1.0) | egg 的工作空间备份 |
+| OpenClaw 文档 | https://docs.openclaw.ai | 官方文档 |
+| skills.sh | https://skills.sh | ✅ 推荐技能市场 |
+| ~~ClawHub~~ | ~~https://clawhub.com~~ | ❌ 近期出现恶意代码，不推荐 |
 
 ---
 
@@ -123,6 +135,7 @@ skill-name/
 - ✅ 移除 6 个过时技能
 - ✅ 优化技能分类
 - ✅ 新增使用指南
+- ⚠️ **安全更新**: 添加 ClawHub 风险提示，推荐 skills.sh
 
 ---
 
